@@ -13,7 +13,7 @@ C=$(echo "((5/9)*($F-32))" | bc -l)
 
 echo "The temperature in Celsius scale is C=$C"
 
-K=$(echo "(C+273.15)" | bc -l)
+K=$(echo "($C+273.15)" | bc -l)
 
 echo "The temperature in Kelvin scale is =$K"
 
